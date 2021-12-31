@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+	    <component priority="0" singleton="false"  remote="true" tx="CMT"  supportAlias="true">
+	      	<interface>nc.itf.baseapp.utils.ICallNccOpenAPIUtil</interface>
+	      	<implementation>nc.impl.baseapp.utils.CallNccOpenAPIUtiIlmpl</implementation>
+	    </component>
+	</public>	
+
+	<public>
+		<component priority="0" singleton="false"  remote="true" tx="CMT"  supportAlias="true">
+	      	<interface>ncc.itf.baseapp.nccsign.INCCServiceHandler</interface>
+	      	<implementation>ncc.impl.baseapp.nccsign.NCCServiceHandlerImpl</implementation>
+	    </component>
+	</public> 
+
+	<public>
+	    <component priority="0" singleton="false"  remote="true" tx="CMT"  supportAlias="true">
+	      	<interface>nc.itf.baseapp.utils.IPushSingleNCC</interface>
+	      	<implementation>nc.impl.baseapp.utils.IPushSingleNCCImpl</implementation>
+	    </component>
+	</public>
+	<private>
+	</private>
+</module>

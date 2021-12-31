@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="cmp/classes" path="cmp/src/public"/>
+	<classpathentry kind="src" output="cmp/classes" path="cmp/src/client"/>
+	<classpathentry kind="src" output="cmp/classes" path="cmp/src/private"/>
+	<classpathentry kind="src" output="cmp/classes" path="cmp/resources"/>
+	<classpathentry kind="src" output="cmp/classes" path="cmp/src/test"/>
+	<classpathentry kind="src" output="erm/classes" path="erm/src/public"/>
+	<classpathentry kind="src" output="erm/classes" path="erm/src/client"/>
+	<classpathentry kind="src" output="erm/classes" path="erm/src/private"/>
+	<classpathentry kind="src" output="erm/classes" path="erm/resources"/>
+	<classpathentry kind="src" output="erm/classes" path="erm/src/test"/>
+	<classpathentry kind="src" output="baseapp/classes" path="baseapp/src/public"/>
+	<classpathentry kind="src" output="baseapp/classes" path="baseapp/src/client"/>
+	<classpathentry kind="src" output="baseapp/classes" path="baseapp/src/private"/>
+	<classpathentry kind="src" output="baseapp/classes" path="baseapp/resources"/>
+	<classpathentry kind="src" output="baseapp/classes" path="baseapp/src/test"/>
+	<classpathentry kind="src" output="fdcpmpay/classes" path="fdcpmpay/src/public"/>
+	<classpathentry kind="src" output="fdcpmpay/classes" path="fdcpmpay/src/client"/>
+	<classpathentry kind="src" output="fdcpmpay/classes" path="fdcpmpay/src/private"/>
+	<classpathentry kind="src" output="fdcpmpay/classes" path="fdcpmpay/resources"/>
+	<classpathentry kind="src" output="fdcpmpay/classes" path="fdcpmpay/src/test"/>
+	<classpathentry kind="src" output="out/resources" path="resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Ant_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Product_Common_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Middleware_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Framework_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Public_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Client_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Private_Library">
+		<accessrules>
+			<accessrule kind="accessible" pattern="**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Module_Lang_Library"/>
+	<classpathentry kind="con" path="nc.uap.mde.library.container/Generated_EJB"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<public>
+		<component priority="0" singleton="false"  remote="true" tx="CMT"  supportAlias="true">
+	      <interface>nc.itf.bpm2nc.service.hander.IRestfulHandler</interface>
+	      <implementation>nc.impl.bpm2nc.service.handler.RestfulHandlerImpl</implementation>
+	    </component>
+	</public>
+	
+	<public>
+		<component priority="0" singleton="false"  remote="true" tx="CMT"  supportAlias="true">
+	      <interface>nc.itf.nc2bpm.service.ISend2BPM</interface>
+	      <implementation>nc.impl.nc2bpm.service.Send2BPMImpl</implementation>
+	    </component>
+	</public>
+	
+	<public>
+		<component priority="0" singleton="false"  remote="true" tx="CMT"  supportAlias="true">
+	      <interface>nc.itf.bpm.utils.ICommonUtils</interface>
+	      <implementation>nc.baseapp.bpm.utils.CommonUtils</implementation>
+	    </component>
+	</public>
+	<private>
+	</private>
+</module>
